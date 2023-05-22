@@ -38,21 +38,21 @@ characterArray += characterArray.concat(charactersUpper);
 return characterArray;
 }
 
-if (characterLowerBool) {
+else if (characterLowerBool) {
   console.log("lower selected")
-characterArray.concat(charactersLower)
+characterArray += characterArray.concat(charactersLower)
 return characterArray;
 }
 
-if (characterNumericBool) {
+else if (characterNumericBool) {
 console.log("numeric selected")
-characterArray.concat(charactersNumeric)
+characterArray += characterArray.concat(charactersNumeric)
 return characterArray;
 }
 
-if (characterSpecialBool) {
+else if (characterSpecialBool) {
 console.log("special selected")
-characterArray.concat(charactersSpecial)
+characterArray += characterArray.concat(charactersSpecial)
 return characterArray;
 }
 else {
